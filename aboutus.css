@@ -1,0 +1,237 @@
+ .div1{
+border: 3px solid #f1f1f1;
+  font-family: Arial;
+    background-color: lightgray;
+    height:50px;
+  
+}
+
+.containermain {
+  padding: 10px;
+ 
+  display:inline;
+}
+
+input[type=text], input[type=submit] {
+ 
+  padding: 8px;
+  width:48%;
+  display: inline;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+    
+}
+
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+ 
+
+
+
+
+  .header1 {
+  overflow: hidden;
+  background-color: black;
+  opacity:0.8;
+  margin-top: -5px;
+  
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header1 a {
+  float: left;
+  color: white;
+
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header1 a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Change the background color on mouse-over */
+.header1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header1 a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+h1{
+  text-align:center;
+  background-color: lightgray;
+}
+
+.ourworkimage{
+text-align:center;
+}
+
+
+.ourworktext{
+  align-self: center;
+  background-color: lightgray;
+  position: relative;
+  min-height: 1px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height:623px;
+  width:1000px;
+  margin-left:200px;
+ 
+}
+
+.p1{
+
+  font-family: verdana;
+  font-size: 16px;
+  text-align: justify;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 400px; 
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.row3{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  margin-top:60px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+* {box-sizing: border-box;}
+
+input[type=text],  textarea {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  height:300px;
+  width:80%;
+
+}
+.button1{
+  background-color:#ff1a1a;
+
+  border-radius: 5px;
+  width:140px;
+  padding:15px;
+  font-size:14px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.button1:hover{
+  background-color:#ddd;
+
+}
+
+
+.socialmedia {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  display:inline-block;
+
+
+ 
+}
+
+.socialmedia:hover {
+    opacity: 0.7;
+}

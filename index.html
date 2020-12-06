@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SAVE LIFE</title>
+<link rel="stylesheet" type="text/css" href="html.css">
+
+	
+</head>
+<body>
+
+
+	<form class="div1" >
+  <div class="containermain">
+    
+
+  <div class="containermain" style="background-color:lightgray;">
+    
+    <input type="text" placeholder="Email address" name="mail" required style="width:50%;" >
+    <label>
+      
+
+  <div class="containermain" style="width:40%;float:right;">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+
+
+	
+	<div class="header">
+  <a href="index.html" class="logo">SAVE LIFE</a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="ourwork.html">Our Work</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a class="active" href="donate.html"><img src="donateicon3.png" style="width:30px;height:30px;  "></img>Donate Us</a>
+  </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="s1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="s2.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="s3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="row1">
+  <div class="column1" style="background-color:white;">
+    <h2>About Smile Foundation</h2>
+    <p class="column1p">Save Life Foundation is an NGO in India directly benefitting over 750,000 children and their families every year, through more than 350 live welfare projects on education, healthcare, livelihood and women empowerment, in over 1000 remote villages and slums across 25 states of India.
+
+Education is both the means as well as the end to a better life: the means because it empowers an individual to earn his/her livelihood and the end because it increases one's awareness on a range of issues – from healthcare to appropriate social behaviour to understanding one's rights – and in the process help him/her evolve as a better citizen.
+
+Doubtless, education is the most powerful catalyst for social transformation. But child education cannot be done in isolation. A child will go to school only if the family, particularly the mother, is assured of healthcare and empowered. Moreover, when an elder sibling is relevantly skilled to be employable and begins earning, the journey of empowerment continues beyond the present generation.</p>
+  </div>
+  <div class="column1" style="border-style: solid;border-width: 5px;border-radius: 20px;">
+    <img src="img1.jpg" "> </img>
+    <p class="column1p">"I was 9 years old when Baba lost the ability to walk. He was an electrician and in one fateful accident, his left leg was struck with paralysis forever. Ever since that day, Baba has stayed home because he was not able to find work anymore,and Save Life foundation helped us.</p>
+  </div>
+</div>
+
+<div class="rowt">
+  <div class="columnt" >
+    <h2 class=".column1p">TESTIMONIALS</h2>
+    <div class="containert">
+  <img src="t1.jpg" alt="Avatar" style="width:90px">
+  <p><span>Divy Jain</span> CEO at Bombay Softwares</p>
+  <p>"PI Foundation which is a Corporate Social Responsibility wing of PI Industries Limited has been working with CARE India on Women Empowerment programme </p>
+</div>
+   
+<div class="containert">
+
+  <img src="t2.jpg" alt="Avatar" style="width:90px">
+  <p><span>Aman Pandey</span> CEO at Campusby.</p>
+  <p>"Madhepura Electric Locomotives Pvt. Ltd. A Joint venture of Alstom Transport India Ltd. And Indian Railways is establishing an Electric Locomotives manufacturing unit in Madhepura, Bihar.</p>
+</div>
+  </div>
+  <div class="columnt" >
+  	 <br>  
+    <br>
+    <br>  
+   
+
+    <div class="containert">
+  <img src="t3.jpg" alt="Avatar" style="width:90px">
+  <p><span>SARASWATI RAYAR</span> Saraswati Rayar and his wife, Project Participants, Cuddalore District, Tamil Nadu</p>
+  <p>"'Although a couple of oganisations came to distribute relief material, we were not able to access it as we were left behind due to old age.</p>
+</div>
+
+<div class="containert">
+  <img src="t4.jpg" alt="Avatar" style="width:90px">
+  <p><span>SHAPATH PARIKH</span> Director, Parikh Inn Pvt Ltd.</p>
+  <p>I am a regular supporter of CARE India. When Nepal tragedy happened, I was looking to help the people of Nepal, and saw this appeal on Start Plus.</p>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column" style="background-color:rgba(46, 46, 46, 0.9);">
+    <h2>About us</h2>
+    <p class="column1p">
+ Save Life Foundation is an NGO in
+India directly benefitting
+over 750,000 children
+and families through more than
+350 welfare projects in education,
+health, livelihood and woman
+empowerment spread across
+over 1000 remote villages and slums in 25
+states in India.</p>
+<br><br><br><br><br><br>
+<a href="#" class="socialmedia"><img src="twittericon.png" style=" width:30px;height:30px;"></a>
+<a href="#" class="socialmedia"><img src="facebookicon.png" style=" width:30px;height:30px;"></a>
+<a href="#" class="socialmedia"><img src="instagramicon.png" style=" width:30px;height:30px;"></a>
+<a href="#" class="socialmedia"><img src="youtubeicon.png" style=" width:30px;height:30px;"></a>
+
+  </div>
+  <div class="column" style="background-color:rgba(46, 46, 46, 0.9);">
+    <h3 >WRITE TO US</h3>
+    <h4 >Save Life Foundation</h4>
+    <p class="column1p">161 B/4, 3rd Floor, Gulmohar House
+Yusuf Sarai Community Centre
+New Delhi-110049
+Phone : +91-11-43123700</p>
+
+
+<div class="container">
+  <form >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
